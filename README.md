@@ -1,4 +1,4 @@
-# dsh-opencode-free-models  无限免费额度的deepseek harnes 免费模型插件-免费pai
+# dsh-opencode-free-models  无限免费额度的deepseek harnes 免费模型插件-免费API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Node.js >= 18](https://img.shields.io/badge/Node.js-%3E%3D18-brightgreen.svg)](https://nodejs.org)
