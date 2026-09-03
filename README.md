@@ -44,15 +44,6 @@
 
 **你不需要做任何额外操作** —— 装完插件，重启 DSH，免费模型就自动出现在模型选择器里了。
 
-### 它和 dsh-opencode-zen 有什么区别？
-
-| 特性 | dsh-opencode-free-models（本插件） | dsh-opencode-zen |
-|------|-------------------------------------|------------------|
-| 需要 API Key | 不需要，用共享公共密钥 `public` | 需要你自己的 Key |
-| Provider 名 | `opencode-free` | `opencode` |
-| 模型来源 | OpenCode Zen 免费档 | OpenCode Zen 全部模型 |
-| 两者能否共存 | 可以，互不冲突 | 可以 |
-
 ---
 
 ## 核心特性
@@ -63,7 +54,6 @@
 - **一键安装** — Windows 用户双击 `install.bat` 即可
 - **安全可靠** — 无密钥收集、XSS 防护、fail-closed 授权
 - **后台可控** — 站长可通过后端控制总开关、单模型上下架、可用时间窗
-- **不冲突** — 与 `dsh-opencode-zen` 使用独立 provider 路由，互不影响
 
 ---
 
@@ -570,4 +560,3 @@ node scripts/build.mjs --check
 
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — LLM 宿主运行时
 - [OpenCode Zen](https://opencode.ai) — 免费模型 API
-- [dsh-opencode-zen](https://github.com/deepseek-ai/dsh-opencode-zen) — 参考实现（MIT）
