@@ -7,8 +7,6 @@
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.cjs",
-    "./client.js": "./lib/client.js",
-    "./lib/client.js": "./lib/client.js",
     "./package.json": "./package.json"
   },
   "files": [
@@ -30,7 +28,15 @@
     "free-models",
     "model-provider"
   ],
-  "author": "dsh-opencode-free-models authors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yu-wenchao/dsh-opencode-free-models.git"
+  },
+  "homepage": "https://github.com/yu-wenchao/dsh-opencode-free-models#readme",
+  "bugs": {
+    "url": "https://github.com/yu-wenchao/dsh-opencode-free-models/issues"
+  },
+  "author": "yu-wenchao",
   "license": "MIT",
   "engines": {
     "node": ">=18"
